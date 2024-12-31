@@ -21,7 +21,6 @@ class CMDInterface {
         clsCommand.inheritIO().start().waitFor()
     }
 
-
     fun SelectOperation():Operations{
         println("Select Operation:")
         val optionsList = Operations.entries
